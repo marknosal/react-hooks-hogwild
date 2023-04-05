@@ -28,7 +28,7 @@ body {
 
 .headerText {
   color: #F5A9BC;
-  font-size: 3em;
+  font-size: 4em;
   margin: 0% 2% 0% 2%;
 }
 
@@ -46,11 +46,36 @@ body {
 
 .normalText {
   font-family: Georgia, serif;
-  font-size: .75em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(241, 95, 119)
 }
 
 .hoggyText {
   font-size: 1.5em;
+}
+
+.hogCards {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin: auto;
+}
+
+.pigTile img {
+  height: 200px;
+  width: 300px;
+  margin: 2px;
+}
+
+.hogAttributes {
+  font-weight: bold;
+  padding: 0;
+}
+
+.hogCard {
+  margin: 10px;
+  width: 30%;
+  border: solid #3B0B0B;
 }
 
 .achievementText {
@@ -58,6 +83,8 @@ body {
 }
 
 ul {
+  margin-left: 10px;
+  text-align: left;
   list-style-type: none;
   list-style: none;
 }
@@ -89,6 +116,8 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+  width: 28%;
+  height: 400px;
 }
 
 .minBackgroundSneak {
